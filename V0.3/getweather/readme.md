@@ -5,7 +5,7 @@ PreRequisites:
 Running Project:
    -Install package from pip
    -Import it in your file and use function "<package>.<fn>(city_name)
-     example: GETWEATHER.getWeather("Bengaluru")
+     example: getweather.Weather.getWeather("Bengaluru")
    -Check Output in weather forecast file in your machine
 Additional Info:
    -Inside my package, Iam hitting api of "open weather app" to get response
