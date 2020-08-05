@@ -41,7 +41,6 @@ class Weather:
                 only_date = date.split()
                 filename = f"weather_forecast of {city_name} {datetime.datetime.now().strftime('%Y-%m-%d_%I-%M-%S-%p')}.txt"
                 # create a file with filename variable in append format
-                #print('filename given')
                 with open(filename,'a') as f:
                     y = data['list'][day]['main']
                     z = data['list'][day]['weather']
